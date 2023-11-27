@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background: linear-gradient(0deg ,aqua ,rgb(0, 0, 255));
+}
+
+
+
+
+/*header*/
+
+body header{
+    display: flex;
+    width: 100%;
+    /*border: solid rgb(255, 0, 0) 2px;*/
+    align-items: center;
+    height: 80px;
+    background-color: aliceblue;
+    position: fixed;
+    z-index: 10;
+    border-bottom: solid black 2px;
+    background-image: url(https://www.transparentpng.com/thumb/math/bQdr0h-mathematics-euclidean-vector-geometry-formula-vector.png);
+}
+
+body header .logo{
+    float: left;
+    /*border: solid rgb(0, 255, 0) 2px;*/
+    margin-left: 3%;
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid black 4px;
+}
+
+body header nav{
+    display: flex;
+    /*border: solid rgb(38, 0, 255) 2px;*/
+    margin-left: 60%;
+}
+
+body header nav ul{
+    display: flex;
+}
+
+body header nav ul li{
+    padding-right: 20px;
+}
+
+body header nav ul li{
+    padding-right: 20px;
+}
+
+body header nav ul li a{
+    font-weight: bold;
+    font-size: 22px;
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid aqua 4px;
+    color: aliceblue;
+}
+
+
+
+
+/*Overview*/
+
+body .overview{
+    top: 85px;
+    z-index: 1;
+    /*border: solid yellow 2px;*/
+}
+
+body .overview .image{
+    background: linear-gradient(0deg  ,rgba(0, 0, 255, 0),rgba(128, 0, 128, 0.918));
+    height: 600px;
+    position: relative;
+    background-repeat: repeat;
+    background-image: url(https://www.transparentpng.com/thumb/math/bQdr0h-mathematics-euclidean-vector-geometry-formula-vector.png);
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0.1));
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+body .overview .overview-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*border: solid rgb(255, 0, 255) 2px;*/
+}
+
+body .overview .overview-info .heading{
+    /*border: solid rgb(0, 255, 0) 2px;*/
+    position: absolute;
+    top: 105px;
+}
+
+body .overview .overview-info .heading h1{
+    margin-left: 80px;
+    font-size: 2500%;
+}
+
+body .overview .overview-info .info{
+    /*border: solid yellow 2px;*/
+    position: absolute;
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 20px;
+    top: 222px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(128, 128, 128, 0.555);
+}
+
+body .overview .overview-info .info h2{
+    text-decoration: underline solid rgba(0, 0, 0, 0.301) 3px;
+}
+
+
+
+
+/*Math*/
+
+body .math{
+    margin: 50px;
+}
+
+body .math .typeMath{
+    border: solid black 2px;
+    margin-bottom: 50px;
+    background-color: aliceblue;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+body .math .typeMath h2{
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 1px #000000;
+    text-shadow: 0px 2px 4px blue;
+
+}
+
+body .math .typeMath p{
+    width: 30%;
+    border: solid rgb(0, 0, 0) 1px;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(194, 227, 255);
+}
+
+body .math .typeMath .mathUi{
+    /*border: solid rgb(255, 0, 0) 2px;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 200px;
+    margin: 20px;
+}
+
+body .math .typeMath .mathUi .Ui{
+    border: solid rgb(98, 0, 255) 2px;
+    margin: 50px;
+    padding: 20px;
+    box-shadow: rgba(0, 255, 255, 0.4) 5px 5px, rgba(0, 255, 255, 0.3) 10px 10px, rgba(0, 255, 255, 0.2) 15px 15px, rgba(0, 255, 255, 0.1) 20px 20px, rgba(0, 255, 255, 0.05) 25px 25px;
+}
+
+body .math .typeMath .mathUi .Ui .btns{
+    display: flex;
+    height: 20px;
+    width: 100px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+body .math .typeMath .mathUi .Ui .btns button{
+    height: 20px;
+}
+
+body .math .typeMath .mathUi img{
+    border: solid rgb(0, 0, 0) 2px;
+}
