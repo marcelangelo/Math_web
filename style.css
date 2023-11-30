@@ -126,10 +126,18 @@ body .overview .overview-info .info h2{
 /*Math*/
 
 body .math{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     margin: 50px;
+    padding: 100px;
+    background-color: rgba(0, 255, 234, 0.301);
+    border: #000000 solid 2px;
 }
 
 body .math .typeMath{
+    width: 80%;
     border: solid black 2px;
     margin-bottom: 50px;
     background-color: aliceblue;
@@ -145,7 +153,8 @@ body .math .typeMath h2{
 }
 
 body .math .typeMath p{
-    width: 30%;
+    width: 50%;
+    max-width: 500px;
     border: solid rgb(0, 0, 0) 1px;
     margin: 20px;
     padding: 10px;
