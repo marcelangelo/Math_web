@@ -21,6 +21,8 @@ document.getElementById("submitButton_pyth").onclick = function(){
 document.getElementById("clearButton_pyth").onclick =function(){
     
     document.getElementById("cLabel_pyth").innerHTML = "Side C: ";
+    aTextBox_pyth.value = ""; 
+    bTextBox_pyth.value = "";
 }
 
 
@@ -48,6 +50,8 @@ document.getElementById("submitButton_tArea").onclick = function(){
 document.getElementById("clearButton_tArea").onclick =function(){
     
     document.getElementById("cLabel_tArea").innerHTML = "Area: ";
+    aTextBox_tArea.value = ""; 
+    bTextBox_tArea.value = "";
 }
 
 
@@ -75,6 +79,8 @@ document.getElementById("submitbutton_rArea").onclick = function(){
 document.getElementById("clearButton_rArea").onclick =function(){
     
     document.getElementById("cLabel_rArea").innerHTML = "Area: ";
+    aTextBox_rArea.value = ""; 
+    bTextBox_rArea.value = "";
 }
 
 
@@ -98,4 +104,5 @@ document.getElementById("submitButton_cArea").onclick = function(){
 document.getElementById("clearButton_cArea").onclick =function(){
 
     document.getElementById("cLabel_cArea").innerHTML = "Area: ";
+    aTextBox_cArea.value = "";
 }
